@@ -1,12 +1,12 @@
 @media (max-width: 600px) {
 
     .container {
-        width: calc(100% - 40px);
-        margin: 40px auto;
-        padding: 20px;
+        width: calc(100% - 32px);
+        margin: 32px auto;
+        padding: 24px;
     }
 
-    #result {
-        font-size: 24px;
+    .date-inputs {
+        flex-direction: column;
     }
 }

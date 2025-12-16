@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Age Calculator</title>
@@ -14,12 +14,19 @@
 <div class="container">
     <h1>Age Calculator</h1>
 
-    <label for="birthdate">Birthdate</label>
-    <input type="date" id="birthdate">
+    <div class="date-inputs">
+        <input type="number" id="month" placeholder="Month" min="1" max="12">
+        <input type="number" id="day" placeholder="Day" min="1" max="31">
+        <input type="number" id="year" placeholder="Year">
+    </div>
 
     <button id="calculate">Calculate Age</button>
 
-    <div id="result">–</div>
+    <div class="results">
+        <div id="exact-age"></div>
+        <div id="detailed-age"></div>
+        <div id="life-percentage"></div>
+    </div>
 </div>
 
 </body>

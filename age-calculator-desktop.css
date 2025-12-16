@@ -1,54 +1,57 @@
 body {
     font-family: system-ui, sans-serif;
-    background: #f4f4f4;
+    background: #f2f2f2;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 400px;
-    margin: 100px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    text-align: center;
+    width: 520px;
+    margin: 80px auto;
+    padding: 32px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.12);
 }
 
 h1 {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.date-inputs {
+    display: flex;
+    gap: 12px;
     margin-bottom: 20px;
 }
 
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
+.date-inputs input {
+    flex: 1;
+    padding: 12px;
     font-size: 16px;
-    margin-bottom: 20px;
 }
 
 button {
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     font-size: 16px;
     border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    background: #2b7cff;
+    border-radius: 10px;
+    background: #2563eb;
     color: white;
+    cursor: pointer;
 }
 
 button:hover {
-    background: #1f66d1;
+    background: #1e4fd6;
 }
 
-#result {
-    margin-top: 25px;
-    font-size: 28px;
-    font-weight: bold;
+.results {
+    margin-top: 28px;
+    line-height: 1.6;
+}
+
+.results div {
+    margin-bottom: 16px;
+    font-size: 15px;
 }

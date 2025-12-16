@@ -50,13 +50,13 @@ button {
     font-size: 16px;
     border: none;
     border-radius: 10px;
-    background: #2563eb;
+    background: #1f3f83;
     color: white;
     cursor: pointer;
 }
 
 button:hover {
-    background: #1e4fd6;
+    background: #1a3d9b;
 }
 
 .results {
